@@ -1,0 +1,119 @@
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #343a40;
+    display: flex;
+    padding-top: 25px;
+    height: 100px;
+    overflow: hidden;
+ /* Couleur de fond de la barre de navigation */
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: lightcoral;
+    background-color: antiquewhite;
+
+}
+
+.navbar li{
+    list-style-type: none;
+}
+/* Style des liens du menu */
+.navbar a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Couleur du texte des liens du menu */
+    text-decoration: none; /* Enlever la décoration du texte (soulignement par défaut) */
+    margin: 0 15px; /* Marge entre les liens */
+}
+
+/* Style du bouton de recherche */
+.navbar .btn-success {
+    height: 36px;
+    margin-right: 20px;
+    border-radius: 0 10px 10px 0;
+    background-color: #17a2b8; /* Couleur de fond du bouton de recherche */
+    color: white; /* Couleur du texte du bouton de recherche */
+    border: none; /* Supprimer la bordure du bouton */
+    padding: 5px 10px; /* Espacement interne du bouton */
+    margin-left: 10px; /* Marge à gauche du bouton */
+}
+
+/* Style du formulaire de recherche */
+.navbar .form-control {
+    height: 37px;
+    width: 200px; /* Largeur du champ de recherche */
+    border: none; /* Supprimer la bordure du champ de recherche */
+    border-radius: 20px; /* Arrondi des coins du champ de recherche */
+    padding: 5px 10px; /* Espacement interne du champ de recherche */
+}
+
+/* Centrer les éléments du menu */
+.hom{
+    /* display: flex;
+    float: left; */
+    margin: 10px;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 20px;
+}
+.hom .nav-item2{
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 10px;
+}
+/* Ajouter un peu d'espace autour du bouton de recherche */
+.navbar .recherche {
+    margin-left: 520px;
+    padding: 20px;
+    margin-top: -1.2%;
+}
+
+
+
+
+.formulaire {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.formulaire img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.formulaire input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+
+.formulaire input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+   
+}
+.formulaire input[type="submit"]:hover {
+    background-color: #0056b3;
+}
